@@ -12,7 +12,7 @@ namespace Alarm501_Console
         static void Main(string[] args)
         {
             AlarmController controller = new AlarmController();
-            View view = new View();
+            ConsoleView view = new ConsoleView();
 
             view.CheckTrigger = controller.CheckTrigger;
             view.GetAlarms = controller.GetAlarms;

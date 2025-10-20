@@ -2,14 +2,14 @@
 
 namespace Alarm501_Console
 {
-    public class View
+    public class ConsoleView
     {
         public CheckTriggerDel CheckTrigger;
         public GetAlarmDel GetAlarms;
         public UpdateAlarmDel UpdateAlarm;
         public AddAlarmDel AddAlarm;
 
-        public View() { }
+        public ConsoleView() { }
 
         public void HandleTimerTick(DateTime now, List<Alarm> alarms)
         {
